@@ -17,6 +17,7 @@
 ## Installation and usage
     A linux PC with docker-compose and git is required to run.
     For other hosts, use docker documentation and commands from the start script.
+    Test data is preloaded, update through admin zone.
 
     - Clone repository
             git clone https://github.com/tr202/album_cat.git
