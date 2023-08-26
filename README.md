@@ -15,7 +15,9 @@
     -Docker
 
 ## Installation and usage
-    A linux PC with docker-compose and git is required to run. For other hosts, use docker documentation and commands from the start script.
+    A linux PC with docker-compose and git is required to run.
+    For other hosts, use docker documentation and commands from the start script.
+
     - Clone repository
             git clone https://github.com/tr202/album_cat.git
     - Browse to album_cat
@@ -24,7 +26,7 @@
             chmod ugo+x start
             chmod ugo+x stop
     - Start the app
-            sudo start
+            sudo ./start
     - Test the endpoints
             http://your_host/docs
             http://your_host/admin   (login: adm passwd: 123)
@@ -35,5 +37,5 @@
             http://your_host/song/?artist_group_id=1
             http://your_host/song/?album_id=3
     - Stop app
-            sudo stop
+            sudo ./stop
 
