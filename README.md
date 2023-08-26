@@ -1,6 +1,8 @@
 # Catalog
     Catalog of artists and their albums with filtering of works by group artist and album.
-    Demo site [Catalog](http://185.217.199.6/docs/).
+    
+## Demo site [Catalog](http://185.217.199.6/docs/).
+
 ## Features
     * Automatic generation of API schema
     * Easy querying and filtering of data
